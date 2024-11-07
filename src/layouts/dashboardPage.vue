@@ -159,7 +159,7 @@
     </div>
 </template>
 <script>
-import sideBar from '../components/sidebar.vue'
+import sideBar from '../components/sideBar.vue'
 import axios from 'axios';
 import dashboardHeader from '../components/dashboardHeader.vue';
 import { useUserStore } from '../stores/userStore.js';
