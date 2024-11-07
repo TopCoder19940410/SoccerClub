@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 1780px) {
+    .wrap-container {
+        max-width: 1300px;
+    }
+}
+
+
+@media screen and (max-width: 1610px) {
+    .wrap-container .news-container {
+        max-width: 250px !important;
+        right: -80px;
+    }
+
+    .all-news {
+        width: 100%;
+    }
+
+    .news-item {
+        height: 150px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        overflow: hidden;
+}
+
+.news-item img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+}
+
+@media screen and (max-width: 1510px) {
+    .wrap-container {
+        max-width: 1100px;
+    } 
+
+    .video-block {
+        height: 393px;
+        max-width: 600px;
+    }
+
+    .video-block video {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1460px) {
+    .news-section__container, .social-post-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+
+.wrap-container {
+    max-width: 1000px;
+}
+
+.news-item {
+    height: 110px;
+}
+
+.wrap-container .news-container {
+    max-width: 195px;
+    top: calc(50% - 225px);
+}
+
+.all-news {
+    padding: 5px 0;
+}
+
+.news-section__container  {
+    flex-direction: column;
+}
+
+.news-block {
+    margin-bottom: 50px;
+}
+
+.news-section {
+    margin-top: 70px;
+}
+} 
+
+@media screen and (max-width: 1200px) {
+    .news-container, .news-text {
+        display: none;
+    }
+
+
+    .wrap-container {
+        max-width: unset;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .near-event {
+        width: 400px;
+        height: 305px;
+        top: -15px;
+        left: calc(50% - 200px);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .social-post-container {
+        justify-content: center;
+        max-width: 396px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+    .constructor .subcontainer {
+       display: none;
+    }
+    .constructor .main-img-container {
+        max-width: 600px;
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .video-block {
+        height: 200px;
+    }
+}

@@ -1,0 +1,24 @@
+.content-container {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    padding-top: 40px;
+    width: 100%;
+
+}
+
+.form input {
+    max-width: 600px;
+}
+
+.form .editor {
+    width: 100%;
+}
+
+.success-icon {
+    fill: green;
+}

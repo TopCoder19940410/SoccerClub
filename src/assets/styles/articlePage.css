@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-bottom: 200px;
+}
+
+.article-title {
+    padding-top: 100px;
+    font-size: 60px;
+    font-family: 'dCondensed', sans-serif;
+    color: #003333;
+}
+
+.article-title {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+.article-box{
+    color: #003333;
+    font-family: 'metropolis', sans-serif;
+
+}
+
+.article-author {
+    display: flex;
+    align-items: center;
+    font-family: 'metropolis', sans-serif;
+    font-size: 14px;
+    color: #003333;
+    margin-bottom: 30px;
+}
+
+.article-avatar {
+    margin-right: 10px;
+}

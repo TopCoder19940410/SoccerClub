@@ -1,0 +1,401 @@
+.header{
+    margin-bottom: 90px !important;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.dropdown-container{
+    margin-bottom: 80px;
+}
+
+.ot-title {
+    text-align: center;
+    color: #cc3366;
+    font-family: 'goboldI', sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* .players-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+} */
+
+.players-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.position-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+#widget1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-containers{
+    flex-wrap: wrap;
+}
+
+.position-title {
+    color: #cc3366;
+    font-family: 'goboldI', sans-serif;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.dropdown-container {
+    flex-wrap: wrap;
+}
+
+.cards-containers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .player-card {
+    position: relative;
+    width: 320px;
+    height: 570px;
+    perspective: 1000px;
+    margin: 10px;
+  }
+
+  .player-card .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+
+  .player-card .card-front,
+  .player-card .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+  }
+
+  .player-name {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    font-size: 27px;
+    color: #fff;
+  }
+
+  .player-card .card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .player-card .card-back {
+    background-color: #3f3f3f;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .text-title {
+    color: #cc3366;
+    font-family: 'goboldI', sans-serif;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+.text-content {
+    font-family: 'goboldI', sans-serif;
+}
+
+  .text-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+
+  .player-card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+.team-photo{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-photo img {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.player-item {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 15px 25px;
+
+}
+
+.player-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player-info{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.player-name {
+    font-family: 'goboldB', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.player-position {
+    color: #cc3366;
+    font-family: 'goboldI', sans-serif;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1500px) {
+    .social-section-container, .result-container, .social-post-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #widget1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+   
+}
+
+
+
+.dropdown-container {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+}
+
+.dropdown-item {
+    position: relative;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.dropdown-item-name {
+    color: #003333;
+    font-family: 'goboldI', sans-serif;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-align: center;
+
+}
+
+.dropdown-item-name:hover {
+    cursor: pointer;
+    color: #810423;
+
+}
+
+.dropdown-item-name.active-tab {
+    color: #cc0033;
+}
+
+.dropdown-item-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: absolute;
+    left: calc(50% - 122px);
+    top: 25px;
+    display: none;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 7px 1px;
+    color: #003333;
+    font-family: 'metropolis', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.dropdown-item:hover .dropdown-item-menu{
+    display: flex;
+    position: absolute;
+    z-index: 99999 !important;
+
+}
+
+
+@media screen and (max-width: 1460px) {
+   
+}
+
+@media screen and (max-width: 1190px) {
+    .dropdown-item-menu {
+        left: calc(50% - 85px);
+    }
+
+    .dropdown-item {
+        width: fit-content;
+    }
+
+
+    .dropdown-item-name {
+        font-size: 16px;
+    }
+
+  
+
+    .dropdown-item {
+        margin-bottom: 10px;
+    }
+
+    .dropdown-item-menu {
+        left: calc(50% - 50px);
+    }
+}
+
+
+
+@media screen and (max-width: 1510px) {
+    .main-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dropdown-container{
+        max-width: 300px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    
+    .team-photo{
+        height: unset;
+        max-height: 500px;
+    }
+
+}
+
+
+@media screen and (max-width: 815px) {
+    .team-photo{
+        height: unset;
+        max-height: 400px;
+    }
+
+    .team-photo img {
+        max-height: 400px;
+    }
+
+    .player-card {
+        max-height: 470px;
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .team-photo{
+        height: unset;
+        max-height: 300px;
+    }
+
+    .team-photo img {
+        max-height: 300px;
+    }
+
+    .player-card {
+        max-height: 320px;
+        max-width: 200px;
+    }
+
+    .text-item  {
+        margin-bottom: 10px;
+    }
+
+    .text-container, .text-title{
+        font-size: 12px;
+    }
+
+    .player-card .card-back{
+        padding: 5px;
+    }
+
+    .player-card{
+        margin: 5px;
+    }
+
+    .main-container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .team-photo{
+        height: unset;
+        max-height: 250px;
+    }
+
+    .team-photo img {
+        max-height: 210px;
+    }
+
+    .dropdown-container{
+        margin-top: -50px;
+        flex-wrap: wrap;
+    }
+}
+
+
+

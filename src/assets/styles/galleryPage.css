@@ -1,0 +1,108 @@
+.galleryPage-container {
+    max-width: 1440px;
+    margin: 0 auto 200px auto;
+}
+
+.galleryPage-title {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.swiper {
+    height: 500px !important;
+    width: 100%;
+}
+
+
+.slider-cont {
+    width: 100%;
+    height: 600px;
+    border: 8px;
+    overflow: hidden;
+}
+.slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.grid-image {
+    width: 464px;
+    max-width: unset;
+    max-height: unset;
+    height: 360px !important;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    position: relative;
+}
+
+.grid-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+.grid-image-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    font-family: 'metropolis';
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.gi-text-title.team {
+    color: #cc3366;
+}
+
+.grid-image:hover {
+    cursor: pointer;
+}
+
+.grid-image:hover .grid-image-text {
+    cursor: pointer;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+

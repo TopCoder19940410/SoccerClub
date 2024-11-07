@@ -1,0 +1,31 @@
+.container-sidebar {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.content-box {
+    padding: 40px 40px;
+    width: 100%;
+}
+
+.content-box-title {
+    font-family: 'Pr', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    width: 750px;
+    height: 500px;
+}
+
+.preview-table  {
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

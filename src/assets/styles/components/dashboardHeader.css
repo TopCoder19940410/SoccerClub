@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dashboard-header {
+    background: #011418;
+    padding: 20px 0;
+}
+
+.dashboard-header__container {
+    max-width: 98%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Pr', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-header__buttons {
+    display: flex;
+    align-items: center;
+    max-width: 140px;
+    justify-content: space-between;
+}
+
+.dh__buttons_item {
+    background-color: #02313a;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-right: 20px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.dh__buttons_item:hover {
+    cursor: pointer;
+    background-color: #034652;
+}
+
+.dashboard-header__container  svg {
+    fill: #fff;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
