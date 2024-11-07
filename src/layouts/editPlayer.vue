@@ -109,7 +109,7 @@
 </template>
 <script>
 import axios from 'axios';
-import sideBar from '../components/sidebar.vue';
+import sideBar from '../components/sideBar.vue';
 
 import dashboardHeader from '../components/dashboardHeader.vue';
 
