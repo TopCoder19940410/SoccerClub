@@ -1,7 +1,7 @@
 import express from 'express';
 import User from '../models/User.js'
 import AdminAuth from '../middlware/AdminAuth.js';
-import userAuth from '../middlware/userAuth.js';
+import userAuth from '../middlware/UserAuth.js';
 
 const router = express.Router();
 
